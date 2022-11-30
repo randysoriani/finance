@@ -1,0 +1,9 @@
+{
+  "name": "finance",
+  "version": "1.0.0",
+  "description": "App to control personal finances",
+  "main": "/src/server.ts",
+  "repository": "https://github.com/randysoriani/finance",
+  "author": "Randy Soriani <randysoriani@outlook.com>",
+  "license": "MIT"
+}

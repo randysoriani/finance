@@ -1,0 +1,15 @@
+version: '3.1'
+
+services:
+  db:
+    image: postgres
+    container_name: expensesapp-db
+    restart: always
+    environment:
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: P@ssw0rd!
+      POSTGRES_DB: expenses
+    ports:
+      - 5432:5432
+    volumes:
+      - ./db-data:/data/postgres
