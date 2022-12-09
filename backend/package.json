@@ -6,6 +6,9 @@
   "repository": "https://github.com/randysoriani/finance",
   "author": "Randy Soriani <contato@randysoriani.com.br>",
   "license": "MIT",
+  "scripts":{
+    "dev": "ts-node-dev --inspect --transpile-only --ignore-watch node_modules --respawn ./src/main/app.ts"
+  },
   "devDependencies": {
     "@types/express": "^4.17.14",
     "@types/node": "^18.11.12",
