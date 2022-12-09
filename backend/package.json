@@ -5,5 +5,9 @@
   "main": "/src/server.ts",
   "repository": "https://github.com/randysoriani/finance",
   "author": "Randy Soriani <contato@randysoriani.com.br>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^18.11.12",
+    "typescript": "^4.9.4"
+  }
 }
