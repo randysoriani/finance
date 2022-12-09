@@ -4,6 +4,6 @@
   "description": "App to control personal finances",
   "main": "/src/server.ts",
   "repository": "https://github.com/randysoriani/finance",
-  "author": "Randy Soriani <randysoriani@outlook.com>",
+  "author": "Randy Soriani <contato@randysoriani.com.br>",
   "license": "MIT"
 }
